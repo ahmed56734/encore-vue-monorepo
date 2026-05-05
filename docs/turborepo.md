@@ -27,13 +27,11 @@ divers-app/
 ## Getting Started
 
 ```bash
-npm install --legacy-peer-deps
+npm install
 npm run dev
 ```
 
 Both backend (http://127.0.0.1:4000) and dashboard (http://localhost:5173) start together.
-
-> `--legacy-peer-deps` is needed because `vite-plugin-vue-layouts` has outdated peer dependency declarations but works fine with Vite 7.
 
 ## Commands
 
