@@ -1,5 +1,5 @@
 {
-	"id":   "backend-s882",
+	"id":   "my-app",
 	"lang": "typescript",
 	"build": {
 		"hooks": {

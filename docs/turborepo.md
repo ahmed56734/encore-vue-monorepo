@@ -5,7 +5,7 @@ This project is a monorepo managed with **Turborepo** and **npm workspaces**.
 ## Project Structure
 
 ```
-divers-app/
+my-app/
 ├── package.json              ← Root workspace config
 ├── turbo.json                ← Turborepo pipeline
 ├── package-lock.json
