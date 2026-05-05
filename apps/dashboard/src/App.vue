@@ -2,6 +2,7 @@
 import { computed } from 'vue'
 import { useHead } from '@unhead/vue'
 import { useColorMode } from '@vueuse/core'
+import DefaultLayout from './layouts/default.vue'
 
 const colorMode = useColorMode()
 const themeColor = computed(() => colorMode.value === 'dark' ? '#18181b' : '#ffffff')
@@ -16,7 +17,9 @@ useHead({
 <template>
   <Suspense>
     <UApp>
-      <RouterView />
+      <DefaultLayout>
+        <RouterView />
+      </DefaultLayout>
     </UApp>
   </Suspense>
 </template>

@@ -154,7 +154,7 @@ if (cookie.value !== 'accepted') {
 
     <UDashboardSearch :groups="groups" />
 
-    <RouterView />
+    <slot />
 
     <NotificationsSlideover />
   </UDashboardGroup>
