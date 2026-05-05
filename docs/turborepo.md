@@ -105,7 +105,7 @@ When deploying to Encore Cloud:
 
 ## Notes
 
-- The `id` in `encore.app` is your registered Encore Cloud app identifier. When using this repo as a template, run `encore app init` to register a new app and update the `id` field.
+- The `id` in `encore.app` is your registered Encore Cloud app identifier. When using this repo as a template, run `encore app init` in `apps/backend` to register your app and update the `id` field.
 - Encore CLI is a Go binary installed globally at `~/.encore/bin/encore`, not via npm
 - `envMode: "loose"` in turbo.json is required when using Volta on Windows to pass environment variables through to child processes
 - The shared package outputs to `dist/` which is excluded from git
