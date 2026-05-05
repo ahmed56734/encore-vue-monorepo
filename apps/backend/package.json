@@ -1,0 +1,19 @@
+{
+  "name": "@app/backend",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Encore Typescript Backend",
+  "license": "MPL-2.0",
+  "type": "module",
+  "scripts": {
+    "dev": "encore run"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.7",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@app/shared": "*",
+    "encore.dev": "^1.56.9"
+  }
+}
