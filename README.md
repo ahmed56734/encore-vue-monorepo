@@ -14,7 +14,8 @@ A full-stack monorepo template with an [Encore](https://encore.dev) TypeScript b
 ## Prerequisites
 
 - [Node.js](https://nodejs.org) 20+
-- [Encore CLI](https://encore.dev/docs/ts/install) (`encore auth login`)
+- [Encore CLI](https://encore.dev/docs/ts/install) — install and login with `encore auth login`
+- If using this as a template, run `encore app init` in `apps/backend` to register your app and update the `id` in `encore.app`
 
 ## Getting Started
 
