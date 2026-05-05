@@ -55,6 +55,12 @@
       "skillPath": "encore/testing/SKILL.md",
       "computedHash": "0393e55edee2803e420ad2d4390fd07d136574c728afa2848436a1e65216f03b"
     },
+    "nuxt-ui": {
+      "source": "nuxt/ui",
+      "sourceType": "github",
+      "skillPath": "skills/nuxt-ui/SKILL.md",
+      "computedHash": "26228b7bba74ab869f52526f2ba5fbfa0c2353ea0d4bc1176c5e57ee4ee95040"
+    },
     "vue-best-practices": {
       "source": "vuejs-ai/skills",
       "sourceType": "github",
