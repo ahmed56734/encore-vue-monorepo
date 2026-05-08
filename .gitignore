@@ -38,10 +38,14 @@ pnpm-debug.log*
 *.sln
 *.sw?
 
-# IDE/Agent skill caches (restored from skills-lock.json)
-.agents/
-.claude/
-.windsurf/
+# Claude Code
+.claude/cache/
+.claude/logs/
+.claude/session/
+.claude/worktrees/
+
+# OpenCode
+.agents/worktrees/
 
 # Auto-generated
 auto-imports.d.ts

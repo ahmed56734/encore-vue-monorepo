@@ -17,6 +17,18 @@ A full-stack monorepo template with an [Encore](https://encore.dev) TypeScript b
 - [Encore CLI](https://encore.dev/docs/ts/install) — install and login with `encore auth login`
 - If using this as a template, run `encore app init` in `apps/backend` to register your app and update the `id` in `encore.app`
 
+## Recommended Claude Skills
+
+Enhance your development experience with these Claude skills:
+
+```bash
+npx add-skill encoredev/skills
+npx skills add vuejs-ai/skills
+npx skills add nuxt/ui
+```
+
+These skills provide specialized assistance for Encore, Vue.js, and Nuxt UI development.
+
 ## Getting Started
 
 ```bash
